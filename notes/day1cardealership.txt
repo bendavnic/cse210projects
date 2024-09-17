@@ -1,0 +1,41 @@
+car dealership:
+    make
+    model
+    year
+    color
+    VIN
+    mileage
+    sales price
+    interest rate
+    MPG
+
+pickup trucks:
+    tow capacity
+    bed length
+    dualie
+    torque footage
+    hitch receiver
+    headlight lumens
+    gooseneck hitch
+    diesel or gas
+
+personal transport:
+    Battery capacity
+    Charging port type
+    top speed
+    bluetooth
+    phone app
+    lights
+    price
+    warrantee
+    insurance
+    accessories
+
+    functions:
+    gyro stabilization
+
+
+robot functions:
+    car function discovery
+    obd2 connectivity
+    
