@@ -9,28 +9,28 @@ class Program
         string play = "";
         do
         {
-            int magicnumber = random.Next(1, 100);
+            int magicNumber = random.Next(1, 100);
             int guess = 0;
-            int guesscount = 0;
+            int guessCount = 0;
             Console.WriteLine("Guess the magic number!");
             do
             {
                 Console.Write("What is your guess? ");
                 guess = int.Parse(Console.ReadLine());
-                guesscount ++;
-                if (guess > magicnumber)
+                guessCount ++;
+                if (guess > magicNumber)
                 {
                     Console.WriteLine("Lower...");
                 }
-                else if (guess < magicnumber)
+                else if (guess < magicNumber)
                 {
                     Console.WriteLine("Higher...");
                 }
                 else
                 {
-                    Console.WriteLine($"You guessed the magic number in {guesscount} tries!");
+                    Console.WriteLine($"You guessed the magic number in {guessCount} tries!");
                 }
-            } while (guess != magicnumber);
+            } while (guess != magicNumber);
             Console.Write("Want to play again? ");
             play = Console.ReadLine();
         }while (play == "yes");
