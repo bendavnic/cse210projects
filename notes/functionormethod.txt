@@ -1,0 +1,1 @@
+Methods are functions, but also members of a class
