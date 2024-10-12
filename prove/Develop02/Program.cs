@@ -16,7 +16,7 @@ class Program
                     {
                         choice = int.Parse(Console.ReadLine());
                     }
-                    catch (System.Exception)
+                    catch (Exception)
                     {
                         Console.WriteLine("Please choose by entering a number.");
                     }
@@ -107,7 +107,15 @@ public class Prompt
     public string message()
     {
         Random random = new Random();
-        string[] prompts = File.read(path);
-        return prompts[random.Next(prompts.Length)];
+        try
+        {
+            string[] prompts = File.read(path);
+            return prompts[random.Next(prompts.Length)];
+        }
+        catch (Exception)
+        {
+            return "What did you learn from reading the scriptures today?";
+        }
+        
     }
 }
