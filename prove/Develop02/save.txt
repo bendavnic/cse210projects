@@ -1,0 +1,3 @@
+10/12/2024^I learned lots of cool stuff about c# today, it's really different than python but I'm starting to get it.
+10/12/2024^I reached out to my old roommate to see when I can come visit his new place! He hasn't gotten back with me yet...
+10/12/2024^today I finished the assignment to create this journal program. abstraction and classes make c# really interesting and different. I bet there is a much better way to program this, but my way seems to work.
